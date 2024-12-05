@@ -1,0 +1,64 @@
+# Exclude Visual Studio Code settings
+.vscode/
+
+# Exclude system files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build and temp directories
+dist/
+build/
+.tmp/
+.temp/
+
+# Package-lock files
+package-lock.json
+yarn.lock
+
+# Sass/CSS cache
+*.css.map
+*.scssc
+*.sassc
+
+# Minified files (if you don't want to track them in your repository)
+*.min.js
+*.min.css
+
+# IDE-specific files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Optional: Specific backup files
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Optional: Generated HTML documentation
+doc/
+docs/
+
+# Optional: Coverage reports
+coverage/
+
+# Optional: Build tools cache
+.cache/
+parcel-cache/
+.eslintcache
